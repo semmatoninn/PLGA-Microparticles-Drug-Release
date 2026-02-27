@@ -2,7 +2,7 @@
 
 **Project Overview**
 
-PLGA microparticles are widely used in drug delivery because they enable sustained release, which maintains therapeutic drug levels over extended periods while reducing dosing frequency and minimizing side effects. Sustained release is critical for improving patient adherence and ensuring stable pharmacokinetics in chronic treatments. The dataset, curated from an initial pool of 1,231 articles, comprises 321 in vitro PLGA microparticle release formulations spanning 89 unique drugs across 113 source publications by Zequing Bao.[1]
+PLGA microparticles are widely used in drug delivery because they enable sustained release, which maintains therapeutic drug levels over extended periods while reducing dosing frequency and minimizing side effects. Sustained release is critical for improving patient adherence and ensuring stable pharmacokinetics in chronic treatments. 
 
 This project investigates how physicochemical properties of drugs and formulation parameters influence cumulative drug release from PLGA microparticles. The goal is to build predictive and interpretable machine learning models that can guide rational formulation design rather than relying on trial and error. [1][2][3]
 
@@ -50,7 +50,7 @@ This allows scientists who want to design drugs in a specific chemical space to 
   
 By optimizing within each chemical cluster toward these sustained release criteria, the workflow connects molecular properties, formulation parameters, machine learning prediction, and mechanism aware optimization into a coherent design strategy.
 
-Dataset is by Zequing Bao from Dr. Allen lab
+The dataset, curated from an initial pool of 1,231 articles, comprises 321 in vitro PLGA microparticle release formulations spanning 89 unique drugs across 113 source publications by Zequing Bao from Dr. Allen lab [1]
 
 **References**
 
