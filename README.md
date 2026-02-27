@@ -35,10 +35,13 @@ According to the literature, these chemical groups tend to exhibit different rel
 * Degradation controlled release
 
 **Step 3: Bayesian Optimization Objectives**
+
 Instead of performing a global Bayesian Optimization that might overlook the specific chemical properties of each drug and its formulation, I performed Bayesian Optimization within each cluster.
 This allows scientists who want to design drugs in a specific chemical space to use cluster-specific optimization recommendations as rational starting points. Based on sustained release criteria reported in the literature, I defined experimental goals for optimization:
-Burst control
-Minimum total release threshold
-Monotonic release profile
-Sustained tail beyond day 14
+
+* Burst control
+* Minimum total release threshold
+* Monotonic release profile
+* Sustained tail beyond day 14
+* 
 By optimizing within each chemical cluster toward these sustained release criteria, the workflow connects molecular properties, formulation parameters, machine learning prediction, and mechanism aware optimization into a coherent design strategy.
