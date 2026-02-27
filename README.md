@@ -26,6 +26,8 @@ To better account for differences in release mechanisms, I applied UMAP to embed
 * Cluster 2: midsized amphiphilic drugs
 * Cluster 3: hydrophilic drugs
 
+
+Names were given to allow visualization of each cluster characteristics (drug size/lipopholiccity/polarity) from overarching properties of candidates drug per cluster. More literature need to be used to ensure accurate naming. 
 According to the literature, these chemical groups tend to exhibit different release mechanisms, including:
 
 * Gradual diffusion controlled release
@@ -44,3 +46,16 @@ This allows scientists who want to design drugs in a specific chemical space to 
 * Sustained drug release tail beyond day 14
   
 By optimizing within each chemical cluster toward these sustained release criteria, the workflow connects molecular properties, formulation parameters, machine learning prediction, and mechanism aware optimization into a coherent design strategy.
+
+
+**References**
+
+1. Bao, Z.; et al. Dataset of Drug Release from PLGA Microparticles. Sci. Data 2025, 12, Article 4621. https://doi.org/10.1038/s41597-025-04621-9.
+
+2. Fredenberg, S.; Wahlgren, M.; Reslow, M.; Axelsson, A.The Mechanisms of Drug Release in Poly(lactic-co-glycolic acid)-Based Drug Delivery Systems—A Review. Int. J. Pharm. 2011, 415, 34–52. https://doi.org/10.1016/j.ijpharm.2011.05.049.
+
+3. Park, K.; et al. Injectable Long-Acting PLGA Formulations: Development Challenges and Burst Release Issues. J. Controlled Release 2019, 304, 125–134. https://doi.org/10.1016/j.jconrel.2019.05.003.
+
+4. Lim, M.; et al. Mechanisms of Drug Release in Long-Acting Injectable Microspheres and Design Parameters. Pharmaceutics 2022, 14, 614. https://doi.org/10.3390/pharmaceutics14030614.
+
+5. Yoo, J.; Won, Y.-Y. Mechanistic Understanding of Initial Burst Release in PLGA Microparticles. ACS Biomater. Sci. Eng. 2020, 6, 6053–6065. https://doi.org/10.1021/acsbiomaterials.0c01228.
