@@ -1,1 +1,1 @@
-# CHE1147
+# Predicting Cummulative Drug release in PLGA Microparticles 
