@@ -8,10 +8,10 @@ This project investigates how physicochemical properties of drugs and formulatio
 
 **Step 1: Predicting Drug Release with XGBoost**
 
-I first trained XGBoost models using molecular descriptors and formulation parameters to predict cumulative drug release profiles.
+XGBoost was trained using molecular descriptors and formulation parameters to predict cumulative drug release profiles.
 The objectives were to accurately predict release curves from descriptors and to understand which physicochemical properties play the most important role in PLGA microparticle drug delivery
 The model successfully captured nonlinear interactions between drug properties and formulation parameters. This is important because drug release is rarely influenced by a single variable. Instead, it emerges from complex interactions among encapsulation efficiency, molecular weight, particle size, polymer degradation, and drug–polymer affinity.[2][3][4]
-To interpret the model, I performed SHAP analysis within each cluster. The analysis revealed that these factors have the strongest influence on cumulative drug release.
+To interpret the model, I performed SHAP analysis. It was revealed that these factors have the strongest influence on cumulative drug release.
 
 * Encapsulation efficiency
 * Drug molecular weight
