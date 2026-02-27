@@ -21,6 +21,7 @@ When comparing predicted release curves to actual curves from the database, the 
 This observation brings us back to the importance of physicochemical properties of drugs, formulation characteristics, their interactions, and the resulting mechanism of drug release.
 
 **Step 2: Clustering Drugs in Chemical Space**
+
 To better account for differences in release mechanisms, I applied UMAP to embed the descriptor space and clustered the drugs into four groups based on logP, TPSA, and molecular weight:
 
 * Cluster 0: small hydrophobic molecules
