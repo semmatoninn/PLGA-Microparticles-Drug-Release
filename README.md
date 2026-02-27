@@ -1,14 +1,14 @@
 # Automated workflow in PLGA microparticles optimization using Active Learning
 
 **Project Overview**
-PLGA microparticles are widely used in drug delivery because they enable sustained release, which maintains therapeutic drug levels over extended periods while reducing dosing frequency and minimizing side effects. Sustained release is critical for improving patient adherence and ensuring stable pharmacokinetics in chronic treatments.
-This project investigates how physicochemical properties of drugs and formulation parameters influence cumulative drug release from PLGA microparticles. The goal is to build predictive and interpretable machine learning models that can guide rational formulation design rather than relying on trial and error.
+PLGA microparticles are widely used in drug delivery because they enable sustained release, which maintains therapeutic drug levels over extended periods while reducing dosing frequency and minimizing side effects. Sustained release is critical for improving patient adherence and ensuring stable pharmacokinetics in chronic treatments.The dataset, curated from an initial pool of 1,231 articles, comprises 321 in vitro PLGA microparticle release formulations spanning 89 unique drugs across 113 source publications by Zequing Bao.[1]
+This project investigates how physicochemical properties of drugs and formulation parameters influence cumulative drug release from PLGA microparticles. The goal is to build predictive and interpretable machine learning models that can guide rational formulation design rather than relying on trial and error. [1][2][3]
 
 **Step 1: Predicting Drug Release with XGBoost**
 
 I first trained XGBoost models using molecular descriptors and formulation parameters to predict cumulative drug release profiles.
 The objectives were to accurately predict release curves from descriptors and to understand which physicochemical properties play the most important role in PLGA microparticle drug delivery
-The model successfully captured nonlinear interactions between drug properties and formulation parameters. This is important because drug release is rarely influenced by a single variable. Instead, it emerges from complex interactions among encapsulation efficiency, molecular weight, particle size, polymer degradation, and drug–polymer affinity.
+The model successfully captured nonlinear interactions between drug properties and formulation parameters. This is important because drug release is rarely influenced by a single variable. Instead, it emerges from complex interactions among encapsulation efficiency, molecular weight, particle size, polymer degradation, and drug–polymer affinity.[2][3][4]
 To interpret the model, I performed SHAP analysis within each cluster. The analysis revealed that these factors have the strongest influence on cumulative drug release.
 
 * Encapsulation efficiency
@@ -27,7 +27,7 @@ To better account for differences in release mechanisms, I applied UMAP to embed
 * Cluster 3: hydrophilic drugs
 
 
-Names were given to allow visualization of each cluster characteristics (drug size/lipopholiccity/polarity) from overarching properties of candidates drug per cluster. More literature need to be used to ensure accurate naming. 
+Names were given to allow visualization of each cluster characteristics (drug size/lipopholiccity/polarity) from overarching properties of candidates drug per cluster [2][3][4][5]. More literatures are required to ensure accurate naming. 
 According to the literature, these chemical groups tend to exhibit different release mechanisms, including:
 
 * Gradual diffusion controlled release
@@ -47,6 +47,7 @@ This allows scientists who want to design drugs in a specific chemical space to 
   
 By optimizing within each chemical cluster toward these sustained release criteria, the workflow connects molecular properties, formulation parameters, machine learning prediction, and mechanism aware optimization into a coherent design strategy.
 
+Dataset is by Zequing Bao from Dr. Allen lab
 
 **References**
 
