@@ -36,7 +36,7 @@ According to the literature, these chemical groups tend to exhibit different rel
 * Gradual diffusion controlled release
 * Sharp burst release
 * Delayed release
-* Degradation controlled release
+* Degradation release (pore)
 
 **Step 3: Bayesian Optimization Objectives**
 
