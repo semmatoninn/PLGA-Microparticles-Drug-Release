@@ -50,7 +50,7 @@ This allows scientists who want to design drugs in a specific chemical space to 
   
 By optimizing within each chemical cluster toward these sustained release criteria, the workflow connects molecular properties, formulation parameters, machine learning prediction, and mechanism aware optimization into a coherent design strategy.
 
-The dataset, curated from an initial pool of 1,231 articles, comprises 321 in vitro PLGA microparticle release formulations spanning 89 unique drugs across 113 source publications by Zequing Bao from Dr. Allen lab [1]
+The dataset, curated from an initial pool of 1,231 articles, comprises of 321 in vitro PLGA microparticle release formulations, 89 unique drugs across 113 source publications by Zequing Bao from Dr. Allen lab [1]
 
 **References**
 
